@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>New Page</title>
+    </head>
+    <body>
+        <h1>Tables</h1>
+
+        <table border="5">
+            <thead>
+                <th>Country Name</th>
+                <th>Country Flag</th>
+                <th>GDP (millions of USD)</th>
+            </thead>
+            <tr>
+                <td>United States</td>
+                <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/190px-Flag_of_the_United_States.svg.png" alt="Image not found"></td>
+                <td>18,561,930</td>
+            </tr>
+            <tr>
+                <td>India</td>
+                <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/150px-Flag_of_India.svg.png" alt="Image not found"></td>
+                <td>2,250,990</td>
+            </tr>
+            <tr>
+                <td>United Kingdom</td>
+                <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/200px-Flag_of_the_United_Kingdom.svg.png" alt="Image not found"></td>
+                <td>2,649,890</td>
+            </tr>
+        </table>
+        
+        <form>
+            <h1>Choose Colour!</h1>
+            <h2>Click on Button!</h2>
+            <input type="color">
+
+            <h2>Enter some Text</h2>
+            <input type="text" name="Text goes here">
+        </form>
+        
+        <form action="https://google.com" method="GET">
+            <p>Enter some text</p>
+            <input type="text" name="userinput">
+            <input type="submit" value="Submit">
+        </form>
+
+        <form>
+            <label for="user">Input Text:</label>
+            <input type="text" id="user" value="Type here">
+        </form>
+
+        <form>
+            <input type="text" placeholder="Not required">
+            <input type="text" placeholder="Required" required>
+            <input type="submit" value="Submit">
+        </form>
+
+        <h1>Hotel feedback form</h1>
+        <form method="GET">
+            <h3>Are you from inside the US? Or outside the US?</h3>
+
+            <label for="inusa">Inside: </label>
+            <input type="radio" id="inusa" name="loc" value="Inside">
+
+            <label for="outusa">Outside: </label>
+            <input type="radio" id="outusa" name="loc" value="Outside">
+
+            <h3>How was our service?</h3>
+
+            <select name="stars">
+                <option value="Great">3</option>
+                <option value="Moderate">2</option>
+                <option value="Bad">1</option>
+            </select>
+
+            <h3>Any other feedback?</h3>
+            <textarea name="myfeedback" cols="30" rows="10"></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
