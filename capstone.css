@@ -1,0 +1,43 @@
+body{
+    background-color: #011c35;
+    color: white;
+    font-family: Arial;
+    border: 60px solid #53b39e;
+    border-top: none;
+    text-align: center;
+    margin: 0px;
+}
+
+p{
+    margin: 70px 300px 30px 300px;
+}
+
+#form{
+    margin-bottom: 50px;
+}
+
+label{
+    text-align: center;
+}
+
+input[type="text"]{
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+input[type="email"]{
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+#sub{
+    width: 100px;
+    height: 50px;
+    margin-bottom: 10px;
+    font-family: 'Varta', sans-serif;
+    font-size: 1.1em;
+    background-color: orange;
+    border-radius: 20px;
+}
